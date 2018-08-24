@@ -1,4 +1,4 @@
-package actions.page;
+package page;
 
 public class Page {
 
