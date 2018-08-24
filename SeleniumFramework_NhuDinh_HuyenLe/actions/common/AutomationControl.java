@@ -1,4 +1,4 @@
-package actions.common;
+package common;
 
 public class AutomationControl {
 

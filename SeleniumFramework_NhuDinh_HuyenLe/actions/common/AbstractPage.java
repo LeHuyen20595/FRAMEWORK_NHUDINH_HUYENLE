@@ -1,6 +1,5 @@
-package actions.common;
+package common;
 
 public class AbstractPage {
 	
-
 }
