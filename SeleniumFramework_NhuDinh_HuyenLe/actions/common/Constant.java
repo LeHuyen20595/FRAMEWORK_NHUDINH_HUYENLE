@@ -1,23 +1,22 @@
 package common;
 
 public class Constant {
-	// For webdriver
-	public static final String CHORMEWEBDRIVER = "webdriver.chrome.driver";
-	public static final String IEWEBDRIVER = "webdriver.ie.driver";
-
-	// For browser driver
-	public static final String CHROMEDRIVER = ".\\resouces.drivers\\chromedriver.exe";
-	public static final String IEDRIVER = ".\\resouces.drivers\\IEDriverServer.exe";
 
 	// Browser name
-	public static final String CHROMEBROWSER = "Chrome";
-	public static final String FIREFOXBROWSER = "Firefox";
-	public static final String IEBROWSER = "IE";
+	public static final String CHROME_BROWSER = "Chrome";
+	public static final String FIREFOX_BROWSER = "Firefox";
+	public static final String IE_BROWSER = "IE";
 
-	// file path
-	public static final String FILEPATH = "C:\\Users\\huyenlet\\git\\seleniumtraining2018Ver2\\WEBDRIVER_API_HUYENLT_02\\fileupload\\1.PNG";
+	// Browser version
+	public static final String CHROME_VERSION = "2.41";
+	public static final String FIREFOX_VERSION = "0.21.0";
+	public static final String IE_VERSION = "3.14";
 
 	// For random function
 	public static final int RANDOM_STRING_LENGTH = 5;
 	public static final String CHAR_LIST = "0123456789";
+
+	public static final int DEFAULT_TIMEOUT = 30;
+
+	public static final String DEMO_GURU_URL = "http://demo.guru99.com";
 }
