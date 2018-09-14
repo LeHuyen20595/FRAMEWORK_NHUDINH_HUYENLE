@@ -25,8 +25,9 @@ public class LoginPage extends AbstractPage {
 		inputTextToElement(LoginPageUI.txtPassword, password);
 	}
 
-	public void clickLoginButton() {
+	public ManagerPage clickLoginButton() {
 		clickToElement(LoginPageUI.btnLogin);
+		return PageManageDriver.getManagerPage(driver);
 	}
 
 	public CreateNewAccountPage clickToHereLink() {
